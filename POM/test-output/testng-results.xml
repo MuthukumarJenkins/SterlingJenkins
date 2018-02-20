@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7848" started-at="2018-02-20T12:28:30Z" finished-at="2018-02-20T12:28:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7848" started-at="2018-02-20T12:28:30Z" finished-at="2018-02-20T12:28:38Z">
+      <class name="testCases.TC001_Login">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="beforeSuite" is-config="true" duration-ms="229" started-at="2018-02-20T17:58:30Z" finished-at="2018-02-20T17:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="beforeTest" is-config="true" duration-ms="6" started-at="2018-02-20T17:58:30Z" finished-at="2018-02-20T17:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="setData" is-config="true" duration-ms="0" started-at="2018-02-20T17:58:30Z" finished-at="2018-02-20T17:58:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="beforeMethod" is-config="true" duration-ms="5644" started-at="2018-02-20T17:58:30Z" finished-at="2018-02-20T17:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="BirlaLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="BirlaLogin" duration-ms="696" started-at="2018-02-20T17:58:36Z" data-provider="fetchData" finished-at="2018-02-20T17:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SARANYAS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test$000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SARANYAS]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[FAILED]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: FAILED
+	at utils.Reporter.reportStep(Reporter.java:31)
+	at pages.LoginPage.<init>(LoginPage.java:18)
+	at testCases.TC001_Login.BirlaLogin(TC001_Login.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BirlaLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="afterMethod" is-config="true" duration-ms="1334" started-at="2018-02-20T17:58:36Z" finished-at="2018-02-20T17:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-02-20T17:58:38Z" finished-at="2018-02-20T17:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TC001_Login@5f9d02cb]" name="afterSuite" is-config="true" duration-ms="268" started-at="2018-02-20T17:58:38Z" finished-at="2018-02-20T17:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testCases.TC001_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
